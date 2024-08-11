@@ -1,0 +1,9 @@
+<div *ngIf="data">
+  <p><strong>Username:</strong> {{ data.username }}</p>
+  <p><strong>Name:</strong> {{ data.name }}</p>
+  <p><strong>Surname:</strong> {{ data.surname }}</p>
+</div>
+
+<div *ngIf="!data">
+  <p>No user data available.</p>
+</div>
